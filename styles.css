@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#6ef4bc;
+}
+
+header {
+    background: #6ef489;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .branding {
+    display: flex;
+    align-items: center;
+}
+
+header .branding img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #7f72c1;
+    text-decoration: none;
+}
+
+header .contact-info {
+    text-align: right;
+}
+
+header .cta-buttons button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.hero {
+    background: url('creative.jpg') no-repeat center center/cover;
+    color: #0c0c0c;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.hero .overlay {
+    background: rgba(247, 246, 245, 0.5);
+    padding: 100px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.features, .about-us, .services {
+    padding: 50px 0;
+}
+
+.features .feature, .services .service {
+    text-align: center;
+    flex: 1;
+}
+
+.features .container, .services .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.about-us img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+}
